@@ -3,6 +3,10 @@
 /* GLOBAL FONT */
 @import url(https://fonts.googleapis.com/css?family=Audiowide|Special+Elite|Cinzel+Decorative:400,700);
 
+body {
+  font-family: "Cinzel Decorative";
+
+}
 .productCards {
     float: left;
 /*Each card should take up 30% of the width of the browser window.*/
@@ -26,7 +30,9 @@
 /*The title and product image are centered.*/
 .cardImg,
 .productCards h1 {
-  align-content: center;
+  font-family: "Special Elite";
+
+
 }
 
 .cardImg {
