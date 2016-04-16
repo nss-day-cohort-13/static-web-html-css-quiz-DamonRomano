@@ -5,32 +5,31 @@
 
 body {
   font-family: "Special Elite";
+  width: 100%;
+  margin: 0 auto;
 
 }
 .productCards {
     float: left;
 /*Each card should take up 30% of the width of the browser window.*/
     width: 30%;
+
     height: 915px;
-    margin: 0 auto;
+
 /*The entire card has a solid 1px border that is lightblue.*/
     border: 1px solid lightblue;
 }
 
-/*.productCards a {
-  width: 100%;
-}*/
-
 /*The card title has a dotted 1px border that is lightgray.*/
 .header {
   border: 1px dotted lightgray;
-/*  align-self: center;*/
 }
 
 /*The title and product image are centered.*/
 .cardImg {
   font-family: "Audiowide";
 }
+
 .productCards h1 {
   font-family: "Audiowide";
   text-align: center;
@@ -58,11 +57,14 @@ body {
 }
 
 .specContent {
-  padding-left: 15px;
+  margin: 3px auto 7px 15px;
+  font-family: "Audiowide"
   font-size: 1em;
 }
 
-
+.prodDescribe {
+  margin-top: 3px;
+}
 
 /*The availability element extends the full width of the card, with a dark grey background and yellow text.*/
 .prodAvail {
@@ -72,9 +74,20 @@ body {
 }
 
 footer {
+  font-family: "Audiowide"
   font-size: .75em;
   text-align: justify;
-
-
+  margin: 0 5px;
 }
 
+.quantitySmall,
+.quantityMedium,
+.quantityHuge {
+  padding-left: 15px;
+}
+
+span {
+  font-family: "Cinzel Decorative"
+  font-weight: 700;
+  font-size: 1.2em;
+}
