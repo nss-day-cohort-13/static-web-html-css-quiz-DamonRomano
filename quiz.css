@@ -4,13 +4,13 @@
 @import url(https://fonts.googleapis.com/css?family=Audiowide|Special+Elite|Cinzel+Decorative:400,700);
 
 body {
-  font-family: "Cinzel Decorative";
+  font-family: "Special Elite";
 
 }
 .productCards {
     float: left;
 /*Each card should take up 30% of the width of the browser window.*/
-    width: 33%;
+    width: 30%;
     height: 915px;
     margin: 0 auto;
 /*The entire card has a solid 1px border that is lightblue.*/
@@ -23,20 +23,22 @@ body {
 
 /*The card title has a dotted 1px border that is lightgray.*/
 .header {
-  border: 1 px dotted lightgray;
+  border: 1px dotted lightgray;
 /*  align-self: center;*/
 }
 
 /*The title and product image are centered.*/
-.cardImg,
+.cardImg {
+  font-family: "Audiowide";
+}
 .productCards h1 {
-  font-family: "Special Elite";
-
-
+  font-family: "Audiowide";
+  text-align: center;
 }
 
 .cardImg {
   width: 100%;
+  height: 200px;
 }
 
 /*Notice that the text for the description in the image is justified.*/
@@ -45,15 +47,34 @@ body {
 }
 
 /*The text for the product specification details and pricing details is bold.*/
-.specs,
-.priceQuantity {
-  text-decoration-style: bold;
+.specs {
+  font-weight: bold;
 }
+
+.specHeader {
+  text-align: left;
+  font-size: 1.5em;
+  padding-left: 5px;
+}
+
+.specContent {
+  padding-left: 15px;
+  font-size: 1em;
+}
+
+
 
 /*The availability element extends the full width of the card, with a dark grey background and yellow text.*/
 .prodAvail {
   width: 100%;
   background-color: darkgrey;
   color: yellow;
+}
+
+footer {
+  font-size: .75em;
+  text-align: justify;
+
+
 }
 
