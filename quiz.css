@@ -1,0 +1,53 @@
+/*quiz.css  1st Quiz - HTML/CSS*/
+
+/* GLOBAL FONT */
+@import url(https://fonts.googleapis.com/css?family=Audiowide|Special+Elite|Cinzel+Decorative:400,700);
+
+.productCards {
+    float: left;
+/*Each card should take up 30% of the width of the browser window.*/
+    width: 33%;
+    height: 915px;
+    margin: 0 auto;
+/*The entire card has a solid 1px border that is lightblue.*/
+    border: 1px solid lightblue;
+}
+
+/*.productCards a {
+  width: 100%;
+}*/
+
+/*The card title has a dotted 1px border that is lightgray.*/
+.header {
+  border: 1 px dotted lightgray;
+/*  align-self: center;*/
+}
+
+/*The title and product image are centered.*/
+.cardImg,
+.productCards h1 {
+  align-content: center;
+}
+
+.cardImg {
+  width: 100%;
+}
+
+/*Notice that the text for the description in the image is justified.*/
+.cardDescribe {
+  text-align: justify;
+}
+
+/*The text for the product specification details and pricing details is bold.*/
+.specs,
+.priceQuantity {
+  text-decoration-style: bold;
+}
+
+/*The availability element extends the full width of the card, with a dark grey background and yellow text.*/
+.prodAvail {
+  width: 100%;
+  background-color: darkgrey;
+  color: yellow;
+}
+
