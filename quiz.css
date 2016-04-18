@@ -4,20 +4,21 @@
 @import url(https://fonts.googleapis.com/css?family=Audiowide|Special+Elite|Cinzel+Decorative:400,700);
 
 body {
-  font-family: "Special Elite";
+  font-family: "Cinzel Decorative";
   width: 100%;
   margin: 0 auto;
 
 }
 .productCards {
-    float: left;
+  float: left;
 /*Each card should take up 30% of the width of the browser window.*/
-    width: 30%;
-
-    height: 915px;
+  width: 30%;
+  margin-left: 2.5%;
+  margin-top: 15px;
+  height: 850px;
 
 /*The entire card has a solid 1px border that is lightblue.*/
-    border: 1px solid lightblue;
+  border: 1px solid lightblue;
 }
 
 /*The card title has a dotted 1px border that is lightgray.*/
@@ -26,23 +27,24 @@ body {
 }
 
 /*The title and product image are centered.*/
-.cardImg {
-  font-family: "Audiowide";
-}
-
 .productCards h1 {
   font-family: "Audiowide";
   text-align: center;
 }
 
 .cardImg {
-  width: 100%;
-  height: 200px;
+  width: 95%;
+  margin: 0 2.5%;
+}
+
+.img {
+  height: 275px;
 }
 
 /*Notice that the text for the description in the image is justified.*/
-.cardDescribe {
+.prodDescribe {
   text-align: justify;
+  margin-top: 3px;
 }
 
 /*The text for the product specification details and pricing details is bold.*/
@@ -54,16 +56,12 @@ body {
   text-align: left;
   font-size: 1.5em;
   padding-left: 5px;
+  overflow: hidden;
 }
 
 .specContent {
   margin: 3px auto 7px 15px;
-  font-family: "Audiowide"
   font-size: 1em;
-}
-
-.prodDescribe {
-  margin-top: 3px;
 }
 
 /*The availability element extends the full width of the card, with a dark grey background and yellow text.*/
@@ -74,20 +72,27 @@ body {
 }
 
 footer {
-  font-family: "Audiowide"
   font-size: .75em;
   text-align: justify;
   margin: 0 5px;
 }
 
-.quantitySmall,
-.quantityMedium,
-.quantityHuge {
-  padding-left: 15px;
+.pricing {
+  margin: 0;
+  padding-left: 5px;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
-span {
-  font-family: "Cinzel Decorative"
-  font-weight: 700;
-  font-size: 1.2em;
+.quantity {
+  margin: 0;
+  padding-left: 15px;
+  font-size: .8em;
+}
+
+.price {
+  margin: 0 0 15px;
+  padding-left: 15px;
+  font-size: .8em;
+
 }
