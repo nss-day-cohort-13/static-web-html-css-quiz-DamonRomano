@@ -1,8 +1,5 @@
 /*quiz.css  1st Quiz - HTML/CSS*/
 
-/* GLOBAL FONT */
-@import url(https://fonts.googleapis.com/css?family=Audiowide|Special+Elite|Cinzel+Decorative:400,700);
-
 body {
   font-family: "Cinzel Decorative";
   width: 100%;
@@ -14,8 +11,9 @@ body {
 /*Each card should take up 30% of the width of the browser window.*/
   width: 30%;
   margin-left: 2.5%;
-  margin-top: 15px;
-  height: 850px;
+  margin-top: 10px;
+  height: 900px;
+  overflow: hidden;
 
 /*The entire card has a solid 1px border that is lightblue.*/
   border: 1px solid lightblue;
@@ -27,9 +25,10 @@ body {
 }
 
 /*The title and product image are centered.*/
-.productCards h1 {
+h1 {
   font-family: "Audiowide";
   text-align: center;
+  margin: 5px auto;
 }
 
 .cardImg {
@@ -37,9 +36,9 @@ body {
   margin: 0 2.5%;
 }
 
-.img {
-  height: 275px;
-}
+/*.img {
+  height: 300px;
+}*/
 
 /*Notice that the text for the description in the image is justified.*/
 .prodDescribe {
