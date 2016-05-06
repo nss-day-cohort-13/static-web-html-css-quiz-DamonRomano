@@ -1,0 +1,97 @@
+/*quiz.css  1st Quiz - HTML/CSS*/
+
+body {
+  font-family: "Cinzel Decorative";
+  width: 100%;
+  margin: 0 auto;
+
+}
+.productCards {
+  float: left;
+/*Each card should take up 30% of the width of the browser window.*/
+  width: 30%;
+  margin-left: 2.5%;
+  margin-top: 10px;
+  height: 900px;
+  overflow: hidden;
+
+/*The entire card has a solid 1px border that is lightblue.*/
+  border: 1px solid lightblue;
+}
+
+/*The card title has a dotted 1px border that is lightgray.*/
+.header {
+  border: 1px dotted lightgray;
+}
+
+/*The title and product image are centered.*/
+h1 {
+  font-family: "Audiowide";
+  text-align: center;
+  margin: 5px auto;
+}
+
+.cardImg {
+  width: 95%;
+  margin: 0 2.5%;
+}
+
+/*.img {
+  height: 300px;
+}*/
+
+/*Notice that the text for the description in the image is justified.*/
+.prodDescribe {
+  text-align: justify;
+  margin-top: 3px;
+}
+
+/*The text for the product specification details and pricing details is bold.*/
+.specs {
+  font-weight: bold;
+}
+
+.specHeader {
+  text-align: left;
+  font-size: 1.5em;
+  padding-left: 5px;
+  overflow: hidden;
+}
+
+.specContent {
+  margin: 3px auto 7px 15px;
+  font-size: 1em;
+}
+
+/*The availability element extends the full width of the card, with a dark grey background and yellow text.*/
+.prodAvail {
+  width: 100%;
+  background-color: darkgrey;
+  color: yellow;
+}
+
+footer {
+  font-size: .75em;
+  text-align: justify;
+  margin: 0 5px;
+}
+
+.pricing {
+  margin: 0;
+  padding-left: 5px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.quantity {
+  margin: 0;
+  padding-left: 15px;
+  font-size: .8em;
+}
+
+.price {
+  margin: 0 0 15px;
+  padding-left: 15px;
+  font-size: .8em;
+
+}
